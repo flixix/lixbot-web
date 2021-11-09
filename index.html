@@ -2,12 +2,25 @@
 <html>
     <head>
         <link rel="stylesheet" href="./assets/style.css">
+        <script src="./assets/script.js"></script>
+        <title>Lix bot</title>
     </head>
-    <body>
+    <body onload="load(document.getElementById('count'))">
+        <div id="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+              </ul>
+        </div>
         <div id="start">
             <h1>Lix Bot</h1>
             <h2>A fun, multi-purpose Discord bot</h2>
-            <p>Das hier ist ne änderung</p>
+        </div>
+        <div id="count">
+            <h2>Lix is used in</h2>
+            <h1>00</h1>
+            <h2>servers</h2>
+            <p>Powered by <a href="https://horstlang.org">Horst</a></p>
         </div>
     </body>
 </html>
