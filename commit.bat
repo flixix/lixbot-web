@@ -13,4 +13,4 @@ git push -u origin main
 
 echo Fertig!
  
-stop
+pause
