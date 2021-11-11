@@ -35,7 +35,7 @@ body {
   }
   
 #mavbar li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(46, 46, 46);
 }
   
 #navbar .active {
